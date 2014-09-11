@@ -234,7 +234,7 @@ public class CargarUsuarios extends javax.swing.JFrame {
             GeneradorQr qr = new GeneradorQr();
             // Creacion del QR
             
-            File f = new File("Codigos/"+txbNomb.getText()+".png");
+            File f = new File(txbNomb.getText()+".png");
             // Nombre del archivo
             
             String text ="Nombre:" + txbNomb.getText() +"\nEdad:"+ txbEdad.getText() + "\nDni:" + txbDNI.getText() + "\nNº Tel:" +  txbTel.getText() + "\nMail:" + txbMail.getText();
