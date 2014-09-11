@@ -1,7 +1,18 @@
+#java specific
 *.class
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+#netbeans ignore personal stuff
+nbproject/
+
+##generic file to ignore
+*~
+*.lock
+*.DS_Strore
+*.swp
+*.out
 
 # Package Files #
 *.jar
